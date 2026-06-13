@@ -1,0 +1,36 @@
+
+1st step : Input preparation
+gmx pdb2gmx -f protein.pdb -o protein_processed.gro -water spce
+
+2nd step : Box generation 
+gmx editconf -f protein_processed.gro -o protein_box.gro -c -d 1.0 -bt cubic
+
+3rd step : Solvation
+gmx solvate -cp protein_box.gro -cs spc216.gro -o protein_solv.gro -p topol.top
+
+4th step : Neutralization
+gmx grompp -f ions.mdp -c protein_solv.gro -p topol.top -o ions.tpr
+gmx genion -s ions.tpr -o protein_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
+
+5th step : Minimization
+gmx grompp -f minim.mdp -c protein_solv_ions.gro -p topol.top -o em.tpr
+gmx mdrun -v -deffnm em
+
+6th step : Equilibration in NVT emsemble
+gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
+gmx mdrun -deffnm nvt
+
+7th step : Equilibration in NPT ensemble
+gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -t nvt.cpt -p topol.top -o npt.tpr
+gmx mdrun -deffnm npt
+
+8th step : Production run
+gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o mds.tpr
+gmx mdrun -v -deffnm mds
+
+9th step : Stop and restart simulation
+
+Ctrl-C
+gmx mdrun -v -deffnm mds -cpi mds.cpt
+
+

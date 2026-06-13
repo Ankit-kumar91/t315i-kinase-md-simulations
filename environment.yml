@@ -1,0 +1,34 @@
+name: mdsim-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+
+  # Core data science
+  - numpy>=1.24,<2.0
+  - pandas>=2.0
+
+  # Cheminformatics — rdkit must come from conda-forge
+  - rdkit>=2023.09
+
+  # Visualization & chemical space
+  - matplotlib>=3.7
+  - seaborn>=0.12
+  - umap-learn>=0.5
+  - plotly>=5.17
+
+  # Notebooks
+  - jupyter
+  - ipykernel
+  - ipywidgets
+
+  # Utilities
+  - tqdm
+  - pyyaml
+  - joblib
+
+  # Dev tools
+  - ruff>=0.4
+  - pytest>=7.0
