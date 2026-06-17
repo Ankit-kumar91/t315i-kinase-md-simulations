@@ -216,4 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+1IEP_MD/Replica1
+1IEP_MD/Replica2
+1IEP_MD/Replica3
+1IEP_MD/Test_run
+analysis/
 ABL1_T315I_resistance_MD_pipeline.md
