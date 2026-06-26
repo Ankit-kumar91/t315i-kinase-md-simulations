@@ -1,0 +1,171 @@
+*  ---- 
+* Built RTF for LIG_corr_0.mol2
+*    by user SwissParam     Sun 14 Jun 2026 01:33:33 CEST
+* ---- 
+*
+
+ATOMS
+MASS    -1 CB    12.011000
+MASS    -1 NPYD  14.006700
+MASS    -1 NC=C  14.006700
+MASS    -1 NC=O  14.006700
+MASS    -1 C=O   12.011000
+MASS    -1 CR    12.011000
+MASS    -1 NR    14.006700
+MASS    -1 NRP   14.006700
+MASS    -1 O=C   15.999400
+MASS    -1 HCMM   1.007940
+MASS    -1 HNCO   1.007940
+MASS    -1 HNRP   1.007940
+
+BONDS
+CB   CB    401.068     1.3740 
+CB   HCMM  381.853     1.0840 
+CB   NPYD  412.870     1.3330 
+CB   NC=C  443.888     1.3980 
+NC=C HNCO  473.250     1.0180 
+CB   CR    356.737     1.4860 
+CB   NC=O  394.519     1.3950 
+NC=O C=O   419.491     1.3690 
+NC=O HNCO  479.511     1.0150 
+C=O  CB    322.985     1.4570 
+C=O  O=C   931.963     1.2220 
+CR   NR    365.876     1.4510 
+CR   HCMM  342.991     1.0930 
+CR   CR    306.432     1.5080 
+CR   NRP   276.638     1.4800 
+NRP  HNRP  443.528     1.0280 
+
+ANGLES
+CB   CB   CB     48.145    119.9770 
+CB   CB   HCMM   40.517    120.5710 
+CB   CB   NPYD   42.892    126.1390 
+NPYD CB   HCMM   49.872    115.5880 
+CB   NPYD CB     78.083    115.4060 
+NPYD CB   NPYD   52.175    128.9380 
+NPYD CB   NC=C   73.693    123.7550 
+CB   CB   NC=C   75.204    121.6330 
+CB   CB   CR     57.788    120.4190 
+CB   CB   NC=O   73.765    117.9180 
+CB   CB   C=O    57.429    114.4750 
+CB   NC=C CB     72.254    119.0180 
+CB   NC=C HNCO   47.641    110.2880 
+CB   NC=O C=O    73.621    118.5960 
+CB   NC=O HNCO   45.194    118.2270 
+C=O  NC=O HNCO   41.380    120.2770 
+CB   C=O  NC=O   79.234    112.4950 
+CB   C=O  O=C    52.823    119.9680 
+NC=O C=O  O=C    65.273    127.1520 
+CB   CR   NR     78.443    110.9920 
+CB   CR   HCMM   45.122    109.4910 
+NR   CR   HCMM   46.994    110.2970 
+HCMM CR   HCMM   37.134    108.8360 
+CR   NR   CR     78.443    107.0180 
+NR   CR   CR     55.917    108.2900 
+CR   CR   HCMM   45.770    110.5490 
+CR   CR   NRP    84.848    106.4930 
+NRP  CR   HCMM   62.754    106.2240 
+CR   NRP  CR     62.034    112.2510 
+CR   NRP  HNRP   41.452    111.2060 
+
+DIHEDRALS
+CB   CB   CB   CB       3.500  2   180.00 
+CB   CB   NPYD CB       3.500  2   180.00 
+CB   CB   CB   NPYD     3.500  2   180.00 
+CB   CB   CB   HCMM     3.500  2   180.00 
+CB   NPYD CB   HCMM     3.500  2   180.00 
+NPYD CB   CB   HCMM     3.500  2   180.00 
+CB   NPYD CB   NPYD     3.500  2   180.00 
+CB   NPYD CB   NC=C     3.500  2   180.00 
+NPYD CB   NC=C CB       2.000  2   180.00 
+NPYD CB   NC=C HNCO     2.000  2   180.00 
+CB   NC=C CB   CB       2.000  2   180.00 
+CB   CB   CR   HCMM    -0.210  2   180.00 
+CB   CB   CR   HCMM     0.196  3     0.00 
+CB   CB   CB   NC=O     3.500  2   180.00 
+CB   CB   NC=C HNCO     0.357  1     0.00 
+CB   CB   NC=C HNCO     1.314  2   180.00 
+CB   CB   NC=C HNCO     1.677  3     0.00 
+CB   CB   CB   NC=C     3.500  2   180.00 
+CB   CB   CB   CR       3.500  2   180.00 
+CB   CB   NC=O C=O      3.000  2   180.00 
+CB   CB   NC=O HNCO     3.000  2   180.00 
+CB   NC=O C=O  CB       3.000  2   180.00 
+CB   NC=O C=O  O=C      3.000  2   180.00 
+CB   C=O  NC=O HNCO     3.000  2   180.00 
+CB   CB   C=O  NC=O     1.250  2   180.00 
+CB   CB   C=O  O=C      1.250  2   180.00 
+CB   CB   CB   C=O      1.000  2   180.00 
+CB   CB   CR   NR       0.100  3     0.00 
+CB   CR   NR   CR      -0.150  2   180.00 
+CB   CR   NR   CR       0.250  3     0.00 
+NC=C CB   CB   CR       3.500  2   180.00 
+NC=C CB   CB   HCMM     3.500  2   180.00 
+NC=O CB   CB   HCMM     3.500  2   180.00 
+C=O  CB   CB   HCMM     1.000  2   180.00 
+CR   CB   CB   HCMM     3.500  2   180.00 
+CR   NR   CR   CR      -0.220  1     0.00 
+CR   NR   CR   CR       0.393  2   180.00 
+CR   NR   CR   CR       0.136  3     0.00 
+CR   NR   CR   HCMM     0.197  1     0.00 
+CR   NR   CR   HCMM    -0.193  2   180.00 
+CR   NR   CR   HCMM     0.281  3     0.00 
+NR   CR   CR   NRP      0.150  3     0.00 
+NR   CR   CR   HCMM    -0.372  1     0.00 
+NR   CR   CR   HCMM    -0.618  2   180.00 
+NR   CR   CR   HCMM     0.169  3     0.00 
+CR   CR   NRP  CR       0.125  3     0.00 
+CR   CR   NRP  HNRP     0.093  3     0.00 
+CR   NRP  CR   HCMM     0.123  3     0.00 
+NRP  CR   CR   HCMM     0.346  1     0.00 
+NRP  CR   CR   HCMM    -0.265  2   180.00 
+NRP  CR   CR   HCMM     0.139  3     0.00 
+O=C  C=O  NC=O HNCO     0.718  1     0.00 
+O=C  C=O  NC=O HNCO     2.487  2   180.00 
+O=C  C=O  NC=O HNCO    -0.227  3     0.00 
+HCMM CB   CB   HCMM     3.500  2   180.00 
+HCMM CR   CR   HCMM     0.142  1     0.00 
+HCMM CR   CR   HCMM    -0.693  2   180.00 
+HCMM CR   CR   HCMM     0.157  3     0.00 
+HCMM CR   NRP  HNRP     0.130  3     0.00 
+
+IMPROPER
+CB   CB   CB   HCMM     1.079  0     0.00 
+CB   CB   CB   CB       2.519  0     0.00 
+CB   NPYD CB   HCMM     3.310  0     0.00 
+CB   NPYD CB   CB       2.519  0     0.00 
+CB   NPYD NPYD NC=C     2.519  0     0.00 
+NC=C CB   CB   HNCO    -0.360  0     0.00 
+CB   CB   NC=C CB       3.310  0     0.00 
+CB   CB   CB   CR       2.879  0     0.00 
+CB   CB   CB   NC=O     2.519  0     0.00 
+NC=O C=O  CB   HNCO    -1.439  0     0.00 
+C=O  CB   NC=O O=C      9.356  0     0.00 
+CB   CB   C=O  CB       1.943  0     0.00 
+CB   CR   CB   CB       2.879  0     0.00 
+CR   NR   CB   HCMM     0.000  0     0.00 
+NR   CR   CR   CR       0.000  0     0.00 
+CR   CR   NR   HCMM     0.000  0     0.00 
+CR   NRP  CR   HCMM     0.000  0     0.00 
+NRP  CR   CR   CR       0.000  0     0.00 
+NRP  CR   CR   HNRP     0.000  0     0.00 
+CR   HCMM CB   HCMM     0.000  0     0.00 
+CR   HCMM NRP  HCMM     0.000  0     0.00 
+CR   CR   NRP  HCMM     0.000  0     0.00 
+
+NONBONDED nbxmod  5 atom cdiel shift vatom vdistance vswitch - 
+cutnb 14.0 ctofnb 12.0 ctonnb 10.0 eps 1.0 e14fac 1.0 wmin 1.5 
+CB      0.000000  -0.070000     1.992400    
+NPYD    0.000000  -0.200000     1.850000    
+NC=C    0.000000  -0.200000     1.850000    
+NC=O    0.000000  -0.200000     1.850000   0.000000  -0.200000     1.550000    
+C=O     0.000000  -0.110000     2.000000    
+CR      0.000000  -0.056000     2.010000   0.000000  -0.010000     1.900000    
+NR      0.000000  -0.200000     1.850000    
+NRP     0.000000  -0.200000     1.850000    
+O=C     0.000000  -0.120000     1.700000   0.000000  -0.120000     1.400000    
+HCMM    0.000000  -0.022000     1.320000    
+HNCO    0.000000  -0.046000     0.224500    
+HNRP    0.000000  -0.046000     0.224500    
+
+

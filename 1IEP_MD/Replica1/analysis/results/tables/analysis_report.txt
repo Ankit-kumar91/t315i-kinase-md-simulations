@@ -1,0 +1,80 @@
+======================================================================
+  MD ANALYSIS REPORT — simulation
+======================================================================
+
+THERMODYNAMIC AVERAGES
+  Potential energy      :  -742988.727 ± 968.848 kJ/mol
+  Kinetic energy        :   140505.456 ± 658.152 kJ/mol
+  Total energy          :  -602483.271 ± 1281.837 kJ/mol
+  Temperature           :      300.015 ± 1.405 K
+  Pressure              :        2.325 ± 111.235 bar
+  Volume                :      556.765 ± 1.171 nm³
+  Density               :     1010.886 ± 2.126 kg/m³
+
+──────────────────────────────────────────────────────────────────────
+STRUCTURAL STABILITY
+  Backbone Cα RMSD  : 2.218 ± 0.445 Å  (max 3.760 Å)
+  Ligand RMSD       : 1.060 ± 0.304 Å  (max 2.624 Å)
+  [FLAG] Backbone RMSD > 3 Å — consider longer equilibration
+
+  Top-5 flexible residues (Cα RMSF):
+    PRO227   : 5.916 Å
+    MET225   : 5.872 Å
+    SER228   : 5.790 Å
+    ASN231   : 5.787 Å
+    ASP226   : 5.399 Å
+
+──────────────────────────────────────────────────────────────────────
+GATEKEEPER CONTACT
+  Gatekeeper residue: 315
+  Mean min-distance : 3.03 Å  (min = 2.61 Å)
+  Frames < 3.5 Å   : 99.3%  (H-bond contact threshold)
+  [OK]  Gatekeeper contact maintained (> 50% occupancy)
+
+──────────────────────────────────────────────────────────────────────
+BINDING-POCKET CONTACTS
+  Total residues in contact  : 33
+  Residues ≥ 80% occupancy   : 19
+
+  High-occupancy contacts (≥ 80%):
+    THR315   : 100.0%
+    ASP381   : 100.0%
+    ALA380   : 100.0%
+    MET318   : 100.0%
+    LYS271   : 100.0%
+    PHE317   : 100.0%
+    PHE382   : 100.0%
+    ALA269   : 100.0%
+    MET290   : 100.0%
+    VAL299   : 100.0%
+    LEU370   : 99.9%
+    LEU248   : 99.9%
+    GLU286   : 99.9%
+    ILE313   : 99.6%
+    GLU316   : 99.0%
+    ILE360   : 96.1%
+    VAL289   : 93.9%
+    HIS361   : 92.6%
+    VAL270   : 86.8%
+
+──────────────────────────────────────────────────────────────────────
+OUTPUT FILES
+  Figures  →  /Users/ankitkumar/Documents/Projects/abl1-t315i-resistance-md/1IEP_MD/Replica1/analysis/results/
+    energy_potential.png   energy_kinetic.png   energy_total_energy.png
+    energy_temperature.png energy_pressure.png  energy_volume.png
+    energy_density.png     rmsd.png             rmsf.png
+    gyration.png           hbonds.png           gatekeeper_distance.png
+    pocket_contacts.png    summary_panel.png
+
+  Tables   →  /Users/ankitkumar/Documents/Projects/abl1-t315i-resistance-md/1IEP_MD/Replica1/analysis/results/tables/
+    rmsd.csv  rmsf.csv  hbonds_count.csv  hbonds_pairs.csv
+    gatekeeper_distance.csv  pocket_contacts.csv
+    analysis_report.txt
+
+──────────────────────────────────────────────────────────────────────
+NEXT STEPS
+  1. Extend to 50–100 ns production run for statistical validity.
+  2. Repeat for T315I mutant — compare ligand RMSD & gatekeeper contact loss.
+  3. Run gmx_MMPBSA on the converged portion for ΔG_bind.
+  4. Add replicas; report mean ± SD across replicates.
+======================================================================
