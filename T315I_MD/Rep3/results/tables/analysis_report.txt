@@ -1,0 +1,64 @@
+======================================================================
+  MD ANALYSIS REPORT
+  Simulation: T315I
+======================================================================
+
+THERMODYNAMIC AVERAGES
+  Potential energy      :  -742908.218 ± 950.902 kJ/mol
+  Kinetic energy        :   140528.532 ± 649.356 kJ/mol
+  Total energy          :  -602379.686 ± 1248.873 kJ/mol
+  Temperature           :      300.035 ± 1.386 K
+  Pressure              :        1.321 ± 112.513 bar
+  Volume                :      556.855 ± 1.168 nm³
+  Density               :     1010.757 ± 2.119 kg/m³
+
+──────────────────────────────────────────────────────────────────────
+STRUCTURAL STABILITY
+  Backbone Cα RMSD  : 2.962 ± 0.618 Å  (max 4.397 Å)
+  Ligand RMSD       : 1.367 ± 0.270 Å  (max 2.877 Å)
+
+  Top-5 flexible residues (Cα RMSF):
+    MET225   : 9.380 Å
+    ASP226   : 9.171 Å
+    SER228   : 8.660 Å
+    SER229   : 8.096 Å
+    PRO230   : 7.563 Å
+
+──────────────────────────────────────────────────────────────────────
+GATEKEEPER CONTACT
+  Gatekeeper residue: 315
+  Mean min-distance : 3.53 Å  (min = 2.95 Å)
+  Frames < 3.5 Å   : 45.5%
+  [NOTE] Contact < 50% — check H-bond stability
+
+──────────────────────────────────────────────────────────────────────
+BINDING-POCKET CONTACTS
+  Total residues in contact: 35
+  Residues ≥ 80% occupancy : 19
+
+  High-occupancy contacts (≥ 80%):
+    ASP381   : 100.0%
+    MET318   : 100.0%
+    ALA380   : 100.0%
+    ILE315   : 100.0%
+    LEU370   : 99.9%
+    MET290   : 99.9%
+    PHE317   : 99.9%
+    VAL299   : 99.7%
+    TYR253   : 99.0%
+    LEU248   : 98.8%
+    ILE360   : 97.8%
+    LYS271   : 97.4%
+    PHE382   : 97.4%
+    VAL256   : 97.3%
+    HIS361   : 94.0%
+    VAL289   : 92.6%
+    PHE359   : 91.8%
+    GLU286   : 91.6%
+    ALA269   : 82.7%
+
+──────────────────────────────────────────────────────────────────────
+OUTPUT FILES
+  Figures → /Users/ankitkumar/Documents/Projects/abl1-t315i-resistance-md/T315I_MD/Rep3/results/
+  Tables  → /Users/ankitkumar/Documents/Projects/abl1-t315i-resistance-md/T315I_MD/Rep3/results/tables/
+======================================================================

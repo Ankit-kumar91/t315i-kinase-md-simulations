@@ -1,0 +1,58 @@
+==============================================================================
+  4-SYSTEM COMPARISON REPORT — ABL1 T315I resistance panel
+  S1 WT+imatinib (1IEP) | S2 T315I+imatinib | S3 WT+ponatinib (3OXZ) | S4 T315I+ponatinib (3IK3)
+  Generated: 2026-07-07 01:37
+  NOTE: MD ensembles generated with CHARMM27 (legacy FF); endpoint MM-GBSA/PBSA
+        not reported here — FF basis inconsistent, values unreliable (see README).
+==============================================================================
+
+PER-SYSTEM METRICS (mean ± SD across 3 replicates, all frames)
+  System                       bbRMSD(Å)  ligRMSD(Å)   GKdist(Å)  GK<3.5Å%   H-bonds
+  ----------------------------------------------------------------------------------
+  WT+imatinib (1IEP)           2.26±0.54   1.12±0.31   3.10±0.05     96.7   2.74±0.52
+  T315I+imatinib               2.62±0.59   1.38±0.32   3.50±0.04     52.8   2.12±0.51
+  WT+ponatinib (3OXZ)          2.86±0.55   1.60±0.41   3.55±0.03     48.2   2.55±0.62
+  T315I+ponatinib (3IK3)       2.64±0.61   1.29±0.27   3.56±0.01     37.5   2.50±0.54
+
+──────────────────────────────────────────────────────────────────────────────
+THE TWO CONTRASTS  (mutant − WT;  Δ = destabilisation caused by T315I)
+  The resistance hypothesis: T315I destabilises IMATINIB but not PONATINIB,
+  i.e. Δ(imatinib) should be large, Δ(ponatinib) near zero.
+
+  IMATINIB   (WT+imatinib  →  T315I+imatinib)
+    Δ ligand RMSD     = +0.27 Å
+    Δ gatekeeper dist = +0.40 Å   (contact% 97 → 53)
+    Δ H-bonds/frame   = -0.62
+    Δ backbone RMSD   = +0.36 Å
+
+  PONATINIB   (WT+ponatinib  →  T315I+ponatinib)
+    Δ ligand RMSD     = -0.31 Å
+    Δ gatekeeper dist = +0.01 Å   (contact% 48 → 37)
+    Δ H-bonds/frame   = -0.04
+    Δ backbone RMSD   = -0.22 Å
+
+──────────────────────────────────────────────────────────────────────────────
+RESISTANCE SIGNAL  (does imatinib destabilise MORE than ponatinib?)
+  Δ ligand RMSD:  imatinib +0.27 Å   vs   ponatinib -0.31 Å
+  Differential (imatinib − ponatinib) = +0.58 Å
+  Positive & larger for imatinib ⇒ structural signature of T315I resistance reproduced.
+  (Interpret against per-replicate scatter in summary_comparison_<drug>.png.)
+
+FIGURES GENERATED
+  complex_structures.png
+  gatekeeper_comparison_imatinib.png
+  gatekeeper_comparison_ponatinib.png
+  gatekeeper_occupancy_bar.png
+  hbonds_bar.png
+  hbonds_comparison_imatinib.png
+  hbonds_comparison_ponatinib.png
+  pocket_contacts_comparison_imatinib.png
+  pocket_contacts_comparison_ponatinib.png
+  resistance_signature_panels.png
+  rmsd_comparison_imatinib.png
+  rmsd_comparison_ponatinib.png
+  rmsf_comparison_imatinib.png
+  rmsf_comparison_ponatinib.png
+  summary_comparison_imatinib.png
+  summary_comparison_ponatinib.png
+==============================================================================

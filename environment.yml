@@ -32,3 +32,21 @@ dependencies:
   # Dev tools
   - ruff>=0.4
   - pytest>=7.0
+
+
+  - pip
+  - ambertools<24
+  - mpi4py=4.0.1
+  - matplotlib=3.7.3
+  - scipy=1.14.1
+  - parmed<5
+
+
+  - pandas=1.5.3
+  - seaborn=0.11.2
+  - tqdm
+
+  - git
+  - gromacs<2026
+  - pip:
+      - pyqt6==6.7.1

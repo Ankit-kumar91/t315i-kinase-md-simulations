@@ -799,10 +799,12 @@ def write_report(energy_data, rmsd_df, rmsf_df, gk_df, contacts_df):
             f"  Backbone Cα RMSD  : {bk.mean():.3f} ± {bk.std():.3f} Å  (max {bk.max():.3f} Å)",
             f"  Ligand RMSD       : {lg.mean():.3f} ± {lg.std():.3f} Å  (max {lg.max():.3f} Å)",
         ]
-        if lg.max() > 3.0:
-            lines.append("  [FLAG] Ligand RMSD > 3 Å — possible pose instability")
-        if bk.max() > 3.0:
-            lines.append("  [FLAG] Backbone RMSD > 3 Å — consider longer equilibration")
+        if lg.mean() > 2.0 or lg.max() > 3.0:
+            lines.append("  [FLAG] Ligand RMSD elevated — possible pose instability")
+        if bk.mean() > 3.5:
+            lines.append("  [FLAG] Mean backbone RMSD > 3.5 Å — consider longer equilibration or staged restraint release")
+        elif bk.max() > 5.0:
+            lines.append("  [FLAG] Backbone RMSD spike > 5 Å — transient instability, check trajectory")
 
     if not rmsf_df.empty:
         lines += ["", "  Top-5 flexible residues (Cα RMSF):"]

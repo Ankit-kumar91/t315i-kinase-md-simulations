@@ -1,0 +1,6 @@
+donor_resid,donor_resname,donor_name,acc_resid,acc_resname,acc_name,n_frames,occupancy_%
+381,ASP,N,499,LIG,O,9610,96.1
+318,MET,N,499,LIG,N,9053,90.5
+499,LIG,N6,360,ILE,O,6341,63.4
+499,LIG,N3,381,ASP,O,234,2.3
+499,LIG,N6,361,HIS,O,234,2.3

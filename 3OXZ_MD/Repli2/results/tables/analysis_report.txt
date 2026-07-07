@@ -1,0 +1,70 @@
+======================================================================
+  MD ANALYSIS REPORT
+  Simulation: 3OXZ
+======================================================================
+
+THERMODYNAMIC AVERAGES
+  Potential energy      :  -683446.909 ± 956.442 kJ/mol
+  Kinetic energy        :   137029.410 ± 646.702 kJ/mol
+  Total energy          :  -546417.498 ± 1252.018 kJ/mol
+  Temperature           :      300.001 ± 1.416 K
+  Pressure              :        0.376 ± 113.113 bar
+  Volume                :      544.016 ± 1.169 nm³
+  Density               :     1002.835 ± 2.154 kg/m³
+
+──────────────────────────────────────────────────────────────────────
+STRUCTURAL STABILITY
+  Backbone Cα RMSD  : 3.174 ± 0.389 Å  (max 4.046 Å)
+  Ligand RMSD       : 1.716 ± 0.327 Å  (max 2.881 Å)
+
+  Top-5 flexible residues (Cα RMSF):
+    GLY228   : 8.734 Å
+    SER229   : 6.751 Å
+    ALA395   : 5.649 Å
+    PRO230   : 4.938 Å
+    THR394   : 4.856 Å
+
+──────────────────────────────────────────────────────────────────────
+GATEKEEPER CONTACT
+  Gatekeeper residue: 315
+  Mean min-distance : 3.50 Å  (min = 2.75 Å)
+  Frames < 3.5 Å   : 52.4%
+  [OK]  Contact > 50%
+
+──────────────────────────────────────────────────────────────────────
+BINDING-POCKET CONTACTS
+  Total residues in contact: 37
+  Residues ≥ 80% occupancy : 25
+
+  High-occupancy contacts (≥ 80%):
+    MET318   : 100.0%
+    ASP381   : 100.0%
+    ALA380   : 100.0%
+    GLU316   : 100.0%
+    LEU370   : 100.0%
+    ILE360   : 100.0%
+    ALA269   : 99.9%
+    MET290   : 99.9%
+    VAL299   : 99.9%
+    PHE382   : 99.8%
+    THR315   : 99.7%
+    PHE317   : 99.7%
+    LEU248   : 99.6%
+    VAL289   : 98.0%
+    VAL256   : 97.0%
+    LYS271   : 95.6%
+    HIS361   : 95.1%
+    GLU286   : 94.3%
+    LEU298   : 93.9%
+    LEU354   : 92.7%
+    TYR253   : 92.0%
+    VAL379   : 85.3%
+    ILE293   : 84.7%
+    GLY321   : 83.6%
+    VAL270   : 80.1%
+
+──────────────────────────────────────────────────────────────────────
+OUTPUT FILES
+  Figures → /Users/ankitkumar/Documents/Projects/abl1-t315i-resistance-md/3OXZ_MD/Repli2/results/
+  Tables  → /Users/ankitkumar/Documents/Projects/abl1-t315i-resistance-md/3OXZ_MD/Repli2/results/tables/
+======================================================================

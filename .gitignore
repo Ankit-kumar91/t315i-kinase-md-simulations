@@ -86,3 +86,12 @@ s41467-023-36956-5.pdf
 
 # ─── Private pipeline notes ───────────────────────────────────────────────────
 ABL1_T315I_resistance_MD_pipeline.md
+
+# ─── Poster/slide-deck build artifacts (large, regenerable, not for the repo) ─
+generate_poster.py
+generate_slides.py
+generate_result_figures.py
+T315I_MD_study_poster.png
+T315I_MD_study_slides.pptx
+~$*.pptx
+compare_systems.py

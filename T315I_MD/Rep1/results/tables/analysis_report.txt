@@ -1,0 +1,61 @@
+======================================================================
+  MD ANALYSIS REPORT
+  Simulation: T315I
+======================================================================
+
+THERMODYNAMIC AVERAGES
+  Potential energy      :  -742899.713 ± 977.144 kJ/mol
+  Kinetic energy        :   140526.942 ± 653.003 kJ/mol
+  Total energy          :  -602372.770 ± 1284.067 kJ/mol
+  Temperature           :      300.031 ± 1.394 K
+  Pressure              :        0.768 ± 111.745 bar
+  Volume                :      556.910 ± 1.175 nm³
+  Density               :     1010.658 ± 2.132 kg/m³
+
+──────────────────────────────────────────────────────────────────────
+STRUCTURAL STABILITY
+  Backbone Cα RMSD  : 2.546 ± 0.591 Å  (max 3.862 Å)
+  Ligand RMSD       : 1.351 ± 0.395 Å  (max 2.805 Å)
+
+  Top-5 flexible residues (Cα RMSF):
+    MET225   : 9.859 Å
+    ASP226   : 9.519 Å
+    SER228   : 8.484 Å
+    SER229   : 7.804 Å
+    PRO227   : 7.573 Å
+
+──────────────────────────────────────────────────────────────────────
+GATEKEEPER CONTACT
+  Gatekeeper residue: 315
+  Mean min-distance : 3.44 Å  (min = 2.88 Å)
+  Frames < 3.5 Å   : 64.2%
+  [OK]  Contact > 50%
+
+──────────────────────────────────────────────────────────────────────
+BINDING-POCKET CONTACTS
+  Total residues in contact: 37
+  Residues ≥ 80% occupancy : 16
+
+  High-occupancy contacts (≥ 80%):
+    ILE315   : 100.0%
+    ASP381   : 100.0%
+    MET290   : 100.0%
+    PHE382   : 100.0%
+    ALA380   : 99.9%
+    LYS271   : 99.9%
+    LEU248   : 99.7%
+    VAL299   : 99.2%
+    PHE317   : 99.0%
+    MET318   : 98.8%
+    ILE360   : 95.6%
+    LEU370   : 95.0%
+    ALA269   : 94.9%
+    GLU286   : 90.7%
+    ILE313   : 90.2%
+    VAL256   : 86.0%
+
+──────────────────────────────────────────────────────────────────────
+OUTPUT FILES
+  Figures → /Users/ankitkumar/Documents/Projects/abl1-t315i-resistance-md/T315I_MD/Rep1/results/
+  Tables  → /Users/ankitkumar/Documents/Projects/abl1-t315i-resistance-md/T315I_MD/Rep1/results/tables/
+======================================================================
